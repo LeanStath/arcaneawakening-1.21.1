@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  M",
+    "DM ",
+    "WD "
+  ],
+  "key": {
+    "M": {
+      "tag": "c:gems/arcane_crystal"
+    },
+    "D": {
+      "tag": "c:ingots/mithril"
+    },
+    "W": {
+      "item": "irons_spellbooks:weapon_parts"
+    }
+  },
+  "result": {
+    "id": "arcaneawakening:spectral_blade",
+    "count": 1
+  }
+}

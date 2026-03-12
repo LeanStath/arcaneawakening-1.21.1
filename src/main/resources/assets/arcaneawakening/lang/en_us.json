@@ -1,0 +1,26 @@
+{
+  "creative_tab.arcaneawakening.items": "Arcane Awakening",
+  "block.arcaneawakening.example_block": "Example Block",
+
+
+  "item.arcaneawakening.arcane_crystal": "Arcane Crystal",
+
+  "item.arcaneawakening.blade_of_the_ruined_king": "Blade of the Ruined King",
+  "item.arcaneawakening.phantom_reeler": "Phantom Reeler",
+
+  "item.arcaneawakening.spectral_blade": "Spectre's Blade",
+  "item.arcaneawakening.tidecaller": "Tide Caller",
+
+  "attribute.arcaneawakening.spectral_spell_power": "Spectral Spell Power",
+  "attribute.arcaneawakening.aqua_spell_power": "Aqua Spell Power",
+  "attribute.arcaneawakening.spectral_magic_resist": "Spectral Magic Resistance",
+  "attribute.arcaneawakening.aqua_magic_resist": "Aqua Magic Resistance",
+
+  "arcaneawakening.configuration.title": "Arcane Awakening Configs",
+  "arcaneawakening.configuration.section.arcaneawakening.common.toml": "Arcane Awakening Configs",
+  "arcaneawakening.configuration.section.arcaneawakening.common.toml.title": "Arcane Awakening Configs",
+  "arcaneawakening.configuration.items": "Item List",
+  "arcaneawakening.configuration.logDirtBlock": "Log Dirt Block",
+  "arcaneawakening.configuration.magicNumberIntroduction": "Magic Number Text",
+  "arcaneawakening.configuration.magicNumber": "Magic Number"
+}
