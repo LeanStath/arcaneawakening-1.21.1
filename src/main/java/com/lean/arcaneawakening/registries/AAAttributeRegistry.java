@@ -24,7 +24,7 @@ public class AAAttributeRegistry {
     }
 
     public static final DeferredHolder<Attribute, Attribute> AQUA_MAGIC_RESIST = newResistanceAttribute("aqua");
-    public static final DeferredHolder<Attribute, Attribute> SPRECTRAL_MAGIC_RESIST = newResistanceAttribute("spectral");
+    public static final DeferredHolder<Attribute, Attribute> SPECTRAL_MAGIC_RESIST = newResistanceAttribute("spectral");
 
     public static final DeferredHolder<Attribute, Attribute> AQUA_SPELL_POWER = newPowerAttribute("aqua");
     public static final DeferredHolder<Attribute, Attribute> SPECTRAL_SPELL_POWER =  newPowerAttribute("spectral");

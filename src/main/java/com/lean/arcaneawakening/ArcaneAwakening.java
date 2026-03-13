@@ -1,6 +1,7 @@
 package com.lean.arcaneawakening;
 
 import com.lean.arcaneawakening.registries.AAAttributeRegistry;
+import com.lean.arcaneawakening.registries.AASchoolRegistry;
 import com.lean.arcaneawakening.registries.ItemRegistries;
 import org.slf4j.Logger;
 
@@ -16,7 +17,6 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-
 import static com.lean.arcaneawakening.registries.ModCreativeModeTabs.CREATIVE_MODE_TAB;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
@@ -46,6 +46,7 @@ public class ArcaneAwakening {
         CREATIVE_MODE_TAB.register(modEventBus);
         ItemRegistries.register(modEventBus);
         AAAttributeRegistry.register(modEventBus);
+        AASchoolRegistry.register(modEventBus);
 
 
 
