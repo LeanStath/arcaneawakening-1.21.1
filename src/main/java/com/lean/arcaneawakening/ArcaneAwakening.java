@@ -1,9 +1,6 @@
 package com.lean.arcaneawakening;
 
-import com.lean.arcaneawakening.registries.AAAttributeRegistry;
-import com.lean.arcaneawakening.registries.AASchoolRegistry;
-import com.lean.arcaneawakening.registries.AASpellRegistry;
-import com.lean.arcaneawakening.registries.ItemRegistries;
+import com.lean.arcaneawakening.registries.*;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -49,6 +46,7 @@ public class ArcaneAwakening {
         AAAttributeRegistry.register(modEventBus);
         AASchoolRegistry.register(modEventBus);
         AASpellRegistry.SPELLS.register(modEventBus);
+        AABlocksRegistry.BLOCKS.register(modEventBus);
 
 
 

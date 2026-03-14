@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "arcaneawakening:block/wisewood_planks",
+    "top": "arcaneawakening:block/wisewood_planks",
+    "side": "arcaneawakening:block/wisewood_planks"
+  }
+}

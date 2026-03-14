@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [{
+    "rolls": 1,
+    "entries": [{
+      "type": "minecraft:item",
+      "name": "arcaneawakening:wisewood_door"
+    }],
+    "conditions": [{
+      "condition": "minecraft:block_state_property",
+      "block": "arcaneawakening:wisewood_door",
+      "properties": { "half": "lower" }
+    }]
+  }]
+}

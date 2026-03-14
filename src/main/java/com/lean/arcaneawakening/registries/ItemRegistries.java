@@ -12,13 +12,14 @@ import io.redspace.ironsspellbooks.util.ItemPropertiesHelper;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ItemRegistries {
-    private static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, ArcaneAwakening.MODID);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Registries.ITEM, ArcaneAwakening.MODID);
 
     // Weapons
     public static final DeferredHolder<Item, Item> BLADE_OF_THE_RUINED_KING = ITEMS.register("blade_of_the_ruined_king",
@@ -48,6 +49,8 @@ public class ItemRegistries {
     // Materials
     public static final DeferredHolder<Item, Item> ARCANE_CRYSTAL = ITEMS.register("arcane_crystal",
             () -> new Item(new Item.Properties()));
+
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

@@ -23,6 +23,13 @@ public class ModCreativeModeTabs {
                         output.accept(ItemRegistries.SPECTRAL_BLADE.get());
                         output.accept(ItemRegistries.TIDECALLER.get());
                         output.accept(ItemRegistries.ARCANE_CRYSTAL.get());
+                        output.accept(AABlocksRegistry.WISEWOOD_PLANKS.get());
+                        output.accept(AABlocksRegistry.WISEWOOD_SLAB.get());
+                        output.accept(AABlocksRegistry.WISEWOOD_STAIRS.get());
+                        output.accept(AABlocksRegistry.WISEWOOD_FENCE.get());
+                        output.accept(AABlocksRegistry.WISEWOOD_FENCE_GATE.get());
+                        output.accept(AABlocksRegistry.WISEWOOD_DOOR.get());
+                        output.accept(AABlocksRegistry.WISEWOOD_TRAPDOOR.get());
                     })
 
                     .build());

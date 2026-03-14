@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "arcaneawakening:block/wisewood_slab" },
+    "type=top": { "model": "arcaneawakening:block/wisewood_slab_top" },
+    "type=double": { "model": "arcaneawakening:block/wisewood_planks" }
+  }
+}

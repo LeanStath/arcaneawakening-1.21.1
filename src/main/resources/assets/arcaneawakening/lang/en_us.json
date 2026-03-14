@@ -3,10 +3,15 @@
   "block.arcaneawakening.example_block": "Example Block",
 
   "school.arcaneawakening.spectral": "Spectral",
+  "school.arcaneawakening.aqua": "Aqua",
 
-
-  "spell.arcaneawakening.randomspell": "Random Spell",
-
+  "block.arcaneawakening.wisewood_planks": "Wisewood Planks",
+  "block.arcaneawakening.wisewood_slab": "Wisewood Slab",
+  "block.arcaneawakening.wisewood_stairs": "Wisewood Stairs",
+  "block.arcaneawakening.wisewood_fence": "Wisewood Fence",
+  "block.arcaneawakening.wisewood_fence_gate": "Wisewood Fence Gate",
+  "block.arcaneawakening.wisewood_door": "Wisewood Door",
+  "block.arcaneawakening.wisewood_trapdoor": "Wisewood Trapdoor",
 
   "item.arcaneawakening.arcane_crystal": "Arcane Crystal",
 

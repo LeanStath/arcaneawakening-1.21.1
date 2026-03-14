@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "arcaneawakening:block/wisewood_planks"
+  }
+}

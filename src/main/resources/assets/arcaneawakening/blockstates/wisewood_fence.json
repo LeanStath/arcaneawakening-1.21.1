@@ -1,0 +1,23 @@
+{
+  "multipart": [
+    {
+      "apply": { "model": "arcaneawakening:block/wisewood_fence_post" }
+    },
+    {
+      "when": { "OR": [{"north": "true"}] },
+      "apply": { "model": "arcaneawakening:block/wisewood_fence_side", "uvlock": true }
+    },
+    {
+      "when": { "OR": [{"east": "true"}] },
+      "apply": { "model": "arcaneawakening:block/wisewood_fence_side", "uvlock": true, "y": 90 }
+    },
+    {
+      "when": { "OR": [{"south": "true"}] },
+      "apply": { "model": "arcaneawakening:block/wisewood_fence_side", "uvlock": true, "y": 180 }
+    },
+    {
+      "when": { "OR": [{"west": "true"}] },
+      "apply": { "model": "arcaneawakening:block/wisewood_fence_side", "uvlock": true, "y": 270 }
+    }
+  ]
+}
