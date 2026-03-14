@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "S#S",
+    "S#S"
+  ],
+  "key": {
+    "#": { "item": "arcaneawakening:wisewood_planks" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": { "id": "arcaneawakening:wisewood_fence_gate", "count": 1 }
+}

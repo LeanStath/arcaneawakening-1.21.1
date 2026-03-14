@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "###"
+  ],
+  "key": { "#": { "item": "arcaneawakening:wisewood_planks" } },
+  "result": { "id": "arcaneawakening:wisewood_slab", "count": 6 }
+}
