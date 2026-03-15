@@ -1,0 +1,6 @@
+{
+  "amount": 0.05,
+  "attribute": "arcaneawakening:aqua_spell_power",
+  "containerItem": "arcaneawakening:aqua_upgrade_orb",
+  "operation": "add_multiplied_base"
+}

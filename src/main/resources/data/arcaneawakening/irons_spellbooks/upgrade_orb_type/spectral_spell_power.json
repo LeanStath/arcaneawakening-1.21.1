@@ -1,0 +1,6 @@
+{
+  "amount": 0.05,
+  "attribute": "arcaneawakening:spectral_spell_power",
+  "containerItem": "arcaneawakening:spectral_upgrade_orb",
+  "operation": "add_multiplied_base"
+}
