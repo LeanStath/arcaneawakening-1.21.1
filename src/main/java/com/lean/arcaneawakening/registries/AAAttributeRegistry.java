@@ -32,15 +32,15 @@ public class AAAttributeRegistry {
 
 
     @SubscribeEvent
-    public static void modifyEntityAttributes(EntityAttributeModificationEvent e) {
-        e.getTypes().forEach(entity -> ATTRIBUTES.getEntries().forEach(attribute -> e.add(entity, attribute)));
+    public static void modifyEntityAttributes(EntityAttributeModificationEvent event) {
+        event.getTypes().forEach(entity -> ATTRIBUTES.getEntries().forEach(attributeDeferredHolder -> event.add(entity, attributeDeferredHolder)));
     }
 
     private static DeferredHolder<Attribute, Attribute> newResistanceAttribute(String id) {
-        return (DeferredHolder<Attribute, Attribute>) ATTRIBUTES.register(id + "_magic_resist", () -> (new MagicPercentAttribute("attribute.arcaneawakening." + id + "_magic_resist", 1.0D, -100, 100).setSyncable(true)));
+        return (DeferredHolder<Attribute, Attribute>) ATTRIBUTES.register(id + "_magic_resist", () -> (new MagicPercentAttribute("attribute.irons_spellbooks." + id + "_magic_resist", 1.0D, -100, 100).setSyncable(true)));
     }
 
     private static DeferredHolder<Attribute, Attribute> newPowerAttribute(String id) {
-        return ATTRIBUTES.register(id + "_spell_power", () -> (new MagicPercentAttribute("attribute.arcaneawakening." + id + "_spell_power", 1.0D, -100, 100).setSyncable(true)));
+        return ATTRIBUTES.register(id + "_spell_power", () -> (new MagicPercentAttribute("attribute.irons_spellbooks." + id + "_spell_power", 1.0D, -100, 100).setSyncable(true)));
     }
 }

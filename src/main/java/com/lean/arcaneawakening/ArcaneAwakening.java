@@ -49,7 +49,7 @@ public class ArcaneAwakening {
         ItemRegistries.register(modEventBus);
         AAAttributeRegistry.register(modEventBus);
         AASchoolRegistry.register(modEventBus);
-        AASpellRegistry.SPELLS.register(modEventBus);
+        AASpellRegistry.register(modEventBus);
         AABlocksRegistry.BLOCKS.register(modEventBus);
         AAArmorMaterialRegistry.register(modEventBus);
 

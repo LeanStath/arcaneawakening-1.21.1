@@ -1,14 +1,23 @@
 package com.lean.arcaneawakening.registries;
 
 
+import com.lean.arcaneawakening.ArcaneAwakening;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.damagesource.DamageScaling;
 import net.minecraft.world.damagesource.DamageType;
 
 import static io.redspace.ironsspellbooks.damage.ISSDamageTypes.register;
 
 public class AADamageRegistry {
+    public static ResourceKey<DamageType> register(String name) {
+        return ResourceKey.create(
+                Registries.DAMAGE_TYPE,
+                ResourceLocation.parse(ResourceLocation.fromNamespaceAndPath(ArcaneAwakening.MODID, name).toString())
+        );
+    }
     public static final ResourceKey<DamageType> SPECTRAL_MAGIC = register("spectral_magic");
     public static final ResourceKey<DamageType> AQUA_MAGIC = register("aqua_magic");
     public static void bootstrap(BootstrapContext<DamageType> context){
