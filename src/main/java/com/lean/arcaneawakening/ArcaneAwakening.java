@@ -1,6 +1,7 @@
 package com.lean.arcaneawakening;
 
 import com.lean.arcaneawakening.registries.*;
+import net.minecraft.resources.ResourceLocation;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -28,11 +29,14 @@ public class ArcaneAwakening {
 
 
 
+
     // Creates a new food item with the id "arcaneawakening:example_id", nutrition 1 and saturation 2
     //public static final DeferredItem<Item> EXAMPLE_ITEM = ITEMS.registerSimpleItem("example_item", new Item.Properties().food(new FoodProperties.Builder()
           //  .alwaysEdible().nutrition(1).saturationModifier(2f).build()));
 
-
+    public static ResourceLocation id(String path) {
+        return ResourceLocation.fromNamespaceAndPath(MODID, path);
+    }
 
     // The constructor for the mod class is the first code that is run when your mod is loaded.
     // FML will recognize some parameter types like IEventBus or ModContainer and pass them in automatically.
@@ -47,6 +51,7 @@ public class ArcaneAwakening {
         AASchoolRegistry.register(modEventBus);
         AASpellRegistry.SPELLS.register(modEventBus);
         AABlocksRegistry.BLOCKS.register(modEventBus);
+        AAArmorMaterialRegistry.register(modEventBus);
 
 
 

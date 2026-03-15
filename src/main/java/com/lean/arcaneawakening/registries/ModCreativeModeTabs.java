@@ -22,7 +22,25 @@ public class ModCreativeModeTabs {
                         output.accept(ItemRegistries.PHANTOM_REELER.get());
                         output.accept(ItemRegistries.SPECTRAL_BLADE.get());
                         output.accept(ItemRegistries.TIDECALLER.get());
+
                         output.accept(ItemRegistries.ARCANE_CRYSTAL.get());
+                        output.accept(ItemRegistries.SPECTRAL_RUNE.get());
+                        output.accept(ItemRegistries.AQUA_RUNE.get());
+                        output.accept(ItemRegistries.AQUA_UPGRADE_ORB.get());
+                        output.accept(ItemRegistries.SPECTRAL_UPGRADE_ORB.get());
+
+
+
+                        output.accept(ItemRegistries.AQUA_HELMET.get());
+                        output.accept(ItemRegistries.AQUA_CHESTPLATE.get());
+                        output.accept(ItemRegistries.AQUA_LEGGINGS.get());
+                        output.accept(ItemRegistries.AQUA_BOOTS.get());
+
+                        output.accept(ItemRegistries.SPECTRAL_HELMET.get());
+                        output.accept(ItemRegistries.SPECTRAL_CHESTPLATE.get());
+                        output.accept(ItemRegistries.SPECTRAL_LEGGINGS.get());
+                        output.accept(ItemRegistries.SPECTRAL_BOOTS.get());
+
                         output.accept(AABlocksRegistry.WISEWOOD_PLANKS.get());
                         output.accept(AABlocksRegistry.WISEWOOD_SLAB.get());
                         output.accept(AABlocksRegistry.WISEWOOD_STAIRS.get());

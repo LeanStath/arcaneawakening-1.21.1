@@ -14,6 +14,10 @@
   "block.arcaneawakening.wisewood_trapdoor": "Wisewood Trapdoor",
 
   "item.arcaneawakening.arcane_crystal": "Arcane Crystal",
+  "item.arcaneawakening.spectral_rune": "Spectral Rune",
+  "item.arcaneawakening.aqua_rune": "Aqua Rune",
+  "item.arcaneawakening.spectral_upgrade_orb": "Spectral Upgrade Orb",
+  "item.arcaneawakening.aqua_upgrade_orb": "Aqua Upgrade Orb",
 
   "item.arcaneawakening.blade_of_the_ruined_king": "Blade of the Ruined King",
   "item.arcaneawakening.phantom_reeler": "Phantom Reeler",
@@ -21,10 +25,22 @@
   "item.arcaneawakening.spectral_blade": "Spectre's Blade",
   "item.arcaneawakening.tidecaller": "Tide Caller",
 
+  "item.arcaneawakening.spectral_helmet": "Spectral Helmet",
+  "item.arcaneawakening.spectral_chestplate": "Spectral Chestplate",
+  "item.arcaneawakening.spectral_leggings": "Spectral Leggings",
+  "item.arcaneawakening.spectral_boots": "Spectral Boots",
+  "item.arcaneawakening.aqua_helmet": "Aqua Helmet",
+  "item.arcaneawakening.aqua_chestplate": "Aqua Chestplate",
+  "item.arcaneawakening.aqua_leggings": "Aqua Leggings",
+  "item.arcaneawakening.aqua_boots": "Aqua Boots",
+
   "attribute.arcaneawakening.spectral_spell_power": "Spectral Spell Power",
   "attribute.arcaneawakening.aqua_spell_power": "Aqua Spell Power",
   "attribute.arcaneawakening.spectral_magic_resist": "Spectral Magic Resistance",
   "attribute.arcaneawakening.aqua_magic_resist": "Aqua Magic Resistance",
+
+  "death.attack.spectral_magic": "Player was slain by %1$s using spectral magic",
+  "death.attack.aqua_magic": "Player was slain by %1$s using aqua magic",
 
   "arcaneawakening.configuration.title": "Arcane Awakening Configs",
   "arcaneawakening.configuration.section.arcaneawakening.common.toml": "Arcane Awakening Configs",
