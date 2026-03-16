@@ -5,6 +5,7 @@ import com.lean.arcaneawakening.items.armor.AAArmorItem;
 import com.lean.arcaneawakening.items.armor.AquaArmorItem;
 import com.lean.arcaneawakening.items.weapons.AAStaffTiers;
 import com.lean.arcaneawakening.items.weapons.AAWeaponTiers;
+import com.lean.arcaneawakening.items.weapons.PhantomReelerItem;
 import io.redspace.ironsspellbooks.api.item.weapons.ExtendedSwordItem;
 import io.redspace.ironsspellbooks.item.UpgradeOrbItem;
 import io.redspace.ironsspellbooks.item.weapons.StaffItem;
@@ -24,7 +25,7 @@ public class ItemRegistries {
 
     // Weapons
     public static final DeferredHolder<Item, Item> BLADE_OF_THE_RUINED_KING;
-    public static final DeferredHolder<Item, Item> PHANTOM_REELER;
+    public static final DeferredHolder<Item, PhantomReelerItem> PHANTOM_REELER;
     static {
         BLADE_OF_THE_RUINED_KING = ITEMS.register("blade_of_the_ruined_king",
                 () -> new ExtendedSwordItem(AAWeaponTiers.BLADE_OF_THE_RUINED_KING,
@@ -34,7 +35,7 @@ public class ItemRegistries {
                                 .attributes(ExtendedSwordItem.createAttributes(AAWeaponTiers.BLADE_OF_THE_RUINED_KING))));
 
         PHANTOM_REELER = ITEMS.register("phantom_reeler",
-                () -> new ExtendedSwordItem(AAWeaponTiers.PHANTOM_REELER,
+                () -> new PhantomReelerItem(AAWeaponTiers.PHANTOM_REELER,
                         ItemPropertiesHelper.equipment(1)
                                 .rarity(Rarity.RARE)
                                 .attributes(ExtendedSwordItem.createAttributes(AAWeaponTiers.PHANTOM_REELER))));
