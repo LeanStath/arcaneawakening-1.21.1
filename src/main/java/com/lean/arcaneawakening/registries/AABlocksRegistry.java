@@ -88,7 +88,6 @@ public class AABlocksRegistry {
         registerBlockItem("wisewood_fence_gate", WISEWOOD_FENCE_GATE);
         registerBlockItem("wisewood_door", WISEWOOD_DOOR);
         registerBlockItem("wisewood_trapdoor", WISEWOOD_TRAPDOOR);
-        registerBlockItem("wisewood_stripped", WISEWOOD_STAIRS);
     }
     @SubscribeEvent
     public static void onCommonSetup(FMLCommonSetupEvent event) {
