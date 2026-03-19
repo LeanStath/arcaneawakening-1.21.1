@@ -31,7 +31,7 @@ public class AASchoolRegistry extends SchoolRegistry {
     public static final Supplier<SchoolType> SPECTRAL = registerSchool(new SchoolType(
             SPECTRAL_RESOURCE,
             AATags.SPECTRAL_FOCUS,
-            Component.translatable("school.arcaneawakening.aqua")
+            Component.translatable("school.arcaneawakening.spectral")
                     .withStyle(Style.EMPTY.withColor(0xa78bfa)),
             //TODO: ^^^^^
             AAAttributeRegistry.SPECTRAL_SPELL_POWER,

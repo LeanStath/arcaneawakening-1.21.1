@@ -52,6 +52,7 @@ public class ArcaneAwakening {
         AASpellRegistry.register(modEventBus);
         AABlocksRegistry.BLOCKS.register(modEventBus);
         AAArmorMaterialRegistry.register(modEventBus);
+        AAMobEffectRegistry.register(modEventBus);
 
 
 

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " EF",
+    "EMA",
+    "W A"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:echo_shard"
+    },
+    "M": {
+      "tag": "c:ingots/mithril"
+    },
+    "W": {
+      "item": "irons_spellbooks:weapon_parts"
+    },
+    "F": {
+      "item": "minecraft:fishing_rod"
+    },
+    "A": {
+      "tag": "c:ingridients/arcane_silk"
+    }
+  },
+  "result": {
+    "id": "arcaneawakening:phantom_reeler",
+    "count": 1
+  }
+}

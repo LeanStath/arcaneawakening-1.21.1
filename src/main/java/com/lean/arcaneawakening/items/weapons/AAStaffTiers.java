@@ -8,7 +8,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 
 public class AAStaffTiers implements IronsWeaponTier {
 
-    public static AAStaffTiers TIDECALLER = new AAStaffTiers(8, -3,
+    public static AAStaffTiers TIDE_CALLER = new AAStaffTiers(8, -3,
             new AttributeContainer(AAAttributeRegistry.AQUA_SPELL_POWER, .15, AttributeModifier.Operation.ADD_MULTIPLIED_BASE),
             new AttributeContainer(AttributeRegistry.CAST_TIME_REDUCTION, .10, AttributeModifier.Operation.ADD_MULTIPLIED_BASE),
             new AttributeContainer(AttributeRegistry.SPELL_POWER, .05, AttributeModifier.Operation.ADD_MULTIPLIED_BASE)

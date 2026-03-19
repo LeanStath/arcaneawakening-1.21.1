@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:shears" },
+    { "item": "irons_spellbooks:magic_cloth" }
+  ],
+  "result": { "id": "arcaneawakening:arcane_silk", "count": 4 }
+}

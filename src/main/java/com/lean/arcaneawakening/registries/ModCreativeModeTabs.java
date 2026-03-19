@@ -18,19 +18,24 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ItemRegistries.BLADE_OF_THE_RUINED_KING.get()))
                     .title(Component.translatable("creative_tab.arcaneawakening.items"))
                     .displayItems((itemDisplayParameters, output) -> {
+
+                        //WEAPONS AND STAFFS
                         output.accept(ItemRegistries.BLADE_OF_THE_RUINED_KING.get().asItem());
                         output.accept(ItemRegistries.PHANTOM_REELER.get());
                         output.accept(ItemRegistries.SPECTRAL_BLADE.get());
-                        output.accept(ItemRegistries.TIDECALLER.get());
+                        output.accept(ItemRegistries.TIDE_CALLER.get());
 
+
+                        //MATERIALS
                         output.accept(ItemRegistries.ARCANE_CRYSTAL.get());
                         output.accept(ItemRegistries.SPECTRAL_RUNE.get());
                         output.accept(ItemRegistries.AQUA_RUNE.get());
                         output.accept(ItemRegistries.AQUA_UPGRADE_ORB.get());
                         output.accept(ItemRegistries.SPECTRAL_UPGRADE_ORB.get());
+                        output.accept(ItemRegistries.ARCANE_SILK.get());
 
 
-
+                        //ARMOUR SETS
                         output.accept(ItemRegistries.AQUA_HELMET.get());
                         output.accept(ItemRegistries.AQUA_CHESTPLATE.get());
                         output.accept(ItemRegistries.AQUA_LEGGINGS.get());
@@ -41,6 +46,8 @@ public class ModCreativeModeTabs {
                         output.accept(ItemRegistries.SPECTRAL_LEGGINGS.get());
                         output.accept(ItemRegistries.SPECTRAL_BOOTS.get());
 
+
+                        //BLOCKS
                         output.accept(AABlocksRegistry.WISEWOOD_PLANKS.get());
                         output.accept(AABlocksRegistry.WISEWOOD_SLAB.get());
                         output.accept(AABlocksRegistry.WISEWOOD_STAIRS.get());
@@ -48,6 +55,8 @@ public class ModCreativeModeTabs {
                         output.accept(AABlocksRegistry.WISEWOOD_FENCE_GATE.get());
                         output.accept(AABlocksRegistry.WISEWOOD_DOOR.get());
                         output.accept(AABlocksRegistry.WISEWOOD_TRAPDOOR.get());
+                        output.accept(AABlocksRegistry.WISEWOOD_LOG);
+                        output.accept(AABlocksRegistry.WISEWOOD_STRIPPED_LOG);
                     })
 
                     .build());

@@ -5,6 +5,13 @@
   "school.arcaneawakening.spectral": "Spectral",
   "school.arcaneawakening.aqua": "Aqua",
 
+  "spell.arcaneawakening.phantom_bind": "Phantom Bind",
+  "spell.arcaneawakening.phantom_bind.cap_reached": "Summon cap reached!",
+  "spell.arcaneawakening.phantom_bind.next_cost": "Next Summon Cost: %s",
+  "ui.irons_spellbooks.max_summons": "Max Summons: %s",
+  "spell.arcaneawakening.suffocation": "Suffocation",
+  "effect.arcaneawakening.suffocation": "Suffocation",
+
   "block.arcaneawakening.wisewood_planks": "Wisewood Planks",
   "block.arcaneawakening.wisewood_slab": "Wisewood Slab",
   "block.arcaneawakening.wisewood_stairs": "Wisewood Stairs",
@@ -12,18 +19,24 @@
   "block.arcaneawakening.wisewood_fence_gate": "Wisewood Fence Gate",
   "block.arcaneawakening.wisewood_door": "Wisewood Door",
   "block.arcaneawakening.wisewood_trapdoor": "Wisewood Trapdoor",
+  "block.arcaneawakening.wisewood_log": "Wisewood Log",
+  "block.arcaneawakening.wisewood_stripped_log": "Stripped Wisewood Log",
+  "block.arcaneawakening.wisewood_wood": "Wisewood wood",
+  "block.arcaneawakening.wisewood_stripped_wood": "Stripped Wisewood wood",
+
 
   "item.arcaneawakening.arcane_crystal": "Arcane Crystal",
   "item.arcaneawakening.spectral_rune": "Spectral Rune",
   "item.arcaneawakening.aqua_rune": "Aqua Rune",
   "item.arcaneawakening.spectral_upgrade_orb": "Spectral Upgrade Orb",
   "item.arcaneawakening.aqua_upgrade_orb": "Aqua Upgrade Orb",
+  "item.arcaneawakening.arcane_silk": "Arcane Silk",
 
   "item.arcaneawakening.blade_of_the_ruined_king": "Blade of the Ruined King",
   "item.arcaneawakening.phantom_reeler": "Phantom Reeler",
 
   "item.arcaneawakening.spectral_blade": "Spectre's Blade",
-  "item.arcaneawakening.tidecaller": "Tide Caller",
+  "item.arcaneawakening.tide_caller": "Tide Caller",
 
   "item.arcaneawakening.spectral_helmet": "Spectral Helmet",
   "item.arcaneawakening.spectral_chestplate": "Spectral Chestplate",

@@ -42,12 +42,12 @@ public class ItemRegistries {
     }
 
     // Staffs
-    public static final DeferredHolder<Item, Item> TIDECALLER;
+    public static final DeferredHolder<Item, Item> TIDE_CALLER;
     public static final DeferredHolder<Item, Item> SPECTRAL_BLADE;
     static {
-        TIDECALLER = ITEMS.register("tidecaller",
+        TIDE_CALLER = ITEMS.register("tide_caller",
                 () -> new StaffItem(ItemPropertiesHelper.equipment(1)
-                        .attributes(ExtendedSwordItem.createAttributes(AAStaffTiers.TIDECALLER))
+                        .attributes(ExtendedSwordItem.createAttributes(AAStaffTiers.TIDE_CALLER))
                         .rarity(Rarity.RARE)));
 
         SPECTRAL_BLADE = ITEMS.register("spectral_blade",
@@ -151,12 +151,12 @@ public class ItemRegistries {
     }
 
     // Materials
-    // Materials
     public static final DeferredHolder<Item, Item> ARCANE_CRYSTAL;
     public static final DeferredHolder<Item, Item> SPECTRAL_RUNE;
     public static final DeferredHolder<Item, Item> AQUA_RUNE;
     public static final DeferredHolder<Item, Item> SPECTRAL_UPGRADE_ORB;
     public static final DeferredHolder<Item, Item> AQUA_UPGRADE_ORB;
+    public static final DeferredHolder<Item, Item> ARCANE_SILK;
     static {
         ARCANE_CRYSTAL = ITEMS.register("arcane_crystal",
                 () -> new Item(new Item.Properties()));
@@ -182,6 +182,8 @@ public class ItemRegistries {
                                 .component(ComponentRegistry.UPGRADE_ORB_TYPE,
                                         AAUpgradeOrbTypeRegistry.AQUA_SPELL_POWER)
                 ));
+        ARCANE_SILK = ITEMS.register("arcane_silk",
+                () -> new Item(new Item.Properties()));
     }
 
     public static void register(IEventBus eventBus) {
